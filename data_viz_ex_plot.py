@@ -8,8 +8,8 @@ y_values = [x**2 for x in x_values]
 #plt.plot(input_values, squares, linewidth=5)
 #plt.scatter(input_values, squares, s=100)
 #plt.scatter(x_values, y_values, edgecolors='none', s=40)
-plt.scatter(x_values, y_values, c='red', edgecolors='none', s=40)
-#plt.scatter(x_values, y_values, c=(0, 0, 0.8), edgecolors='none', s=40)
+#plt.scatter(x_values, y_values, c='red', edgecolors='none', s=40)
+plt.scatter(x_values, y_values, c=(0, 0, 0.8), edgecolors='none', s=40)
 
 #Set chart title and label axes.
 plt.title("Square Numbers", fontsize=24)
